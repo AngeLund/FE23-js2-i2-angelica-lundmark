@@ -1,0 +1,23 @@
+{
+  "name": "scrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch ./backend/index.js",
+    "dev": "parcel ./frontend/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

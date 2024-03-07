@@ -1,0 +1,188 @@
+.header {
+    background-color: #FEFBE7;
+}
+
+.toDo {
+    width: 20%;
+    height: 900px;
+    box-shadow: 7px 5px 5px rgb(117, 117, 117); /* 10 först*/
+    border-radius: 20px;
+    border: 2px #CCCCCC solid;
+}
+
+.progress {
+    /*background: linear-gradient(#8DC0FC, #EBD5EF);*/
+    width: 20%;
+    box-shadow: 7px 5px 5px rgb(117, 117, 117);
+    border-radius: 20px;
+    border: 2px #CCCCCC solid;
+    background-color: white; /* #EDEDED */
+}
+
+.done {
+    border: 2px #CCCCCC solid;
+    width: 20%;
+    box-shadow: 7px 5px 5px rgb(117, 117, 117);
+    border-radius: 20px;
+}
+
+.formDiv {
+    text-align: center;
+}
+form {
+    margin: 40px;
+}
+
+
+.buttonsDiv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.h1Div {
+    text-align: center;
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.sectionsHeader {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.uxDiv {
+    width: 130px;
+    text-align: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: #DAE5D0;
+    border-radius: 10px;
+
+}
+
+.backDiv {
+    width: 130px;
+    text-align: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: #A0BCC2;
+    border-radius: 10px;
+   
+}
+
+.frontDiv {
+    width: 130px;
+    text-align: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: #F9EBC8;
+    border-radius: 10px;
+}
+
+h1 {
+
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.showDiv {
+    padding: 1px;
+}
+
+
+.ux {
+    background-color: #DAE5D0;
+    width: 88%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.frontend {
+    background-color: #F9EBC8;
+    width: 88%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.backend {
+
+    background-color: #A0BCC2;
+    width: 88%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.todoForm {
+    margin: 0;
+    text-align: center;
+    margin: 5px;
+}
+
+.progFor {
+    margin: 0;
+    text-align: center;
+    margin: 5px;
+}
+
+.formDo {
+    margin: 0;
+    text-align: center;
+    margin: 5px;
+}
+
+.pTo {
+    padding: 10px;
+    margin: 0;
+}
+
+.progTex {
+    padding: 10px;
+    margin: 0;
+}
+
+.buttonprog {
+    margin: 10px;
+}
+
+.progName {
+    padding: 3%;
+    margin: 0;
+}
+
+.inputDo {
+    margin: 10px;
+}
+
+.doneText {
+    padding: 10px;
+    margin: 0;
+}
+
+.doneButton {
+    margin: 10px;
+}
+
+.doneName {
+    padding: 3%;
+    margin: 0;
+}

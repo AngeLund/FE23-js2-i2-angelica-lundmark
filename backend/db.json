@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "task": "Hej jag vill ni fixar backend i projektet!",
+      "category": "backend",
+      "id": 1709764680520,
+      "status": "todo",
+      "assigned": null
+    },
+    {
+      "task": "Validera koden",
+      "category": "frontend",
+      "id": 1709764732483,
+      "status": "todo",
+      "assigned": null
+    },
+    {
+      "task": "Fixa en persona till food appen!",
+      "category": "ux",
+      "id": 1709764744612,
+      "status": "inprogress",
+      "assigned": "Kia"
+    },
+    {
+      "task": "Ändra färgschemat",
+      "category": "frontend",
+      "id": 1709764759912,
+      "status": "done",
+      "assigned": "Ragnar"
+    }
+  ]
+}

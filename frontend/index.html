@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js" type="module"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="h1Div">
+            <h1>Scrum Board</h1>
+        </div>
+        <div class="formDiv">
+            <form id="form">
+                <input type="text" id="text" name="text">
+                <select id="job" name="type">
+                    <option value="ux">UX</option>
+                    <option value="frontend">Dev front end</option>
+                    <option value="backend">Dev back end</option>
+                  </select>
+                  <button>add</button>
+            </form>
+        </div>
+        <div class="showDiv">
+         <div class="buttonsDiv">
+            <div class="uxDiv"><p>UX</p></div>
+            <div class="backDiv"><p>Dev back end</p></div>
+            <div class="frontDiv"><p>Dev front end</p></div>
+        </div>
+    </div>
+    </div>
+    <div class="section">
+        <div id="todo" class="toDo">
+            <div class="sectionsHeader"><h2>To do</h2></div>
+        </div>
+        <div id="inprogress" class="progress">
+            <div class="sectionsHeader"><h2>In progress</h2></div>
+        </div>
+        <div id="done" class="done">
+            <div class="sectionsHeader"><h2>Done</h2></div>
+        </div>
+    </div>
+</body>
+</html>
